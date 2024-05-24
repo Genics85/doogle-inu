@@ -29,12 +29,12 @@ const FAQs: FAQ[] = [
   {
     question: "How Do I get Started",
     answer:
-      "To get started, you have to first buy the [Doogle coin](link to Doogle swap) as this would let you access different services within the Doogle metaverse. After you have purchased your coins, get into the [Doogle Metaverse](Link to Doogle Metaverse) straight away!",
+      "To get started, you have to first buy the Doogle coin as this would let you access different services within the Doogle metaverse. After you have purchased your coins, get into the Doogle Metaverse straight away!",
   },
   {
     question: "On what Chain is Doogle on?",
     answer:
-      "For now, Doogle operates on the ETH (Ethereum) network. If there are plans for multichain progress an announcement will be made regarding that.",
+      "For now, Doogle operates on the BASE ETH ( BASE Mainetwork). If there are plans for multichain progress an announcement will be made regarding that.",
   },
 ];
 
@@ -74,7 +74,7 @@ function DoogleInu() {
                 the lifeblood that fuels the entire ecosystem for you Dooglers!
                 So be happy.
               </p>
-              <div className="flex gap-3 flex-col text-white font-semibold mt-5">
+              <div className="flex h-full justify-end gap-3 flex-col text-white font-semibold mt-5">
                 <a
                   href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x1D7db9F46cbcB1DA570a89bd36558c6DDFBa569D&chain=base"
                   target="_blank"

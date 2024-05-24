@@ -5,7 +5,7 @@ import telegram_icon from "../assets/telegram_icon.svg";
 function Footer() {
   return (
     <footer className="text-white pt-24  ">
-      <div className="container p-4 mx-auto  text-[14px] lg:text-[16px] flex flex-col-reverse lg:flex-row w-full lg:items-center justify-between px-36">
+      <div className="container p-4 mx-auto  text-[14px] lg:text-[16px] flex flex-col-reverse lg:flex-row w-full lg:items-center 2xl:px-0 justify-between">
         <div className="flex flex-col gap-2 ">
           <div className="logo flex items-center gap-2">
             <div className="size-10 rounded-full bg-[#A0968A] flex justify-center">
