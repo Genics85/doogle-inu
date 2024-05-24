@@ -19,7 +19,7 @@ function NavigationBar() {
           <div className="size-10 rounded-full bg-[#A0968A] flex justify-center">
             <img className="h-[35px]" src={nav_logo} alt="" />
           </div>
-          <p className="text-[16px]">DOOGLE INU</p>
+          <p className="lg:text-[22px]">DOOGLE INU</p>
         </div>
         <ul className=" gap-4 hidden lg:flex ">
           <NavLink
@@ -216,6 +216,12 @@ function NavigationBar() {
           <NavLink
             className={({ isActive }) => (isActive ? "gradient-text" : "")}
             to="buy-doogle"
+            onClick={() => {
+              window.open(
+                "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x1D7db9F46cbcB1DA570a89bd36558c6DDFBa569D&chain=base",
+                "_blank"
+              );
+            }}
           >
             Buy Doogle
           </NavLink>
@@ -233,6 +239,9 @@ function NavigationBar() {
             FAQs
           </NavLink>
           <NavLink
+            onClick={() => {
+              window.open("https://medium.com/@doogleinu", "_blank");
+            }}
             className={({ isActive }) => (isActive ? "gradient-text" : "")}
             to="blogs"
           >
