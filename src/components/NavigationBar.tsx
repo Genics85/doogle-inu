@@ -116,16 +116,24 @@ function NavigationBar() {
           <img src={burger_menu} alt="" />
         </div>
         <div className="socials hidden lg:flex gap-4">
-          <div className="size-8 p-1 rounded-full bg-[#f06e10]">
+          <a
+            href="https://twitter.com/doogleinu"
+            target="_blank"
+            className="size-8 p-1 rounded-full bg-[#f06e10]"
+          >
             <div className="bg-[#eb853b] w-full h-full rounded-full flex items-center justify-center ">
               <img src={x_icon} alt="" />
             </div>
-          </div>
-          <div className="size-8 p-1 rounded-full bg-[#f06e10]">
+          </a>
+          <a
+            href="https://t.me/DoogleBaseBot"
+            target="_blank"
+            className="size-8 p-1 rounded-full bg-[#f06e10]"
+          >
             <div className="bg-[#eb853b] w-full h-full rounded-full flex items-center justify-center ">
               <img src={telegram_icon} alt="" />
             </div>
-          </div>
+          </a>
         </div>
       </div>
       <div

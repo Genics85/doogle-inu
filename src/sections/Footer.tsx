@@ -26,14 +26,23 @@ function Footer() {
         <div className="flex gap-12 text-[#d1cdcd] w-full lg:w-fit font-semibold">
           <div className="flex flex-col">
             <p className="mb-4 text-white font-bold">Products</p>
-            <p>Doogle Swap</p>
+            <a
+              href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x1D7db9F46cbcB1DA570a89bd36558c6DDFBa569D&chain=base"
+              target="_blank"
+            >
+              Doogle Swap
+            </a>
             <p>Doogle</p>
             <p>Contact</p>
-            <p>Blog</p>
+            <a href="https://medium.com/@doogleinu" target="_blank">
+              Blog
+            </a>
           </div>
           <div className="flex flex-col">
             <p className="mb-4 text-white font-bold">Useful links</p>
-            <p>Doogle Blog</p>
+            <a href="https://medium.com/@doogleinu" target="_blank">
+              Doogle Blog
+            </a>
             <p>Doogle.io</p>
           </div>
         </div>

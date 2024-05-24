@@ -75,9 +75,13 @@ function DoogleInu() {
                 So be happy.
               </p>
               <div className="flex gap-3 flex-col text-white font-semibold mt-5">
-                <button className="bg-[#f06e10] flex items-center justify-center gap-2 h-[48px] w-full rounded-full">
+                <a
+                  href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x1D7db9F46cbcB1DA570a89bd36558c6DDFBa569D&chain=base"
+                  target="_blank"
+                  className="bg-[#f06e10] flex items-center justify-center gap-2 h-[48px] w-full rounded-full"
+                >
                   Buy Doogle token on Uniswap <img src={forward_arrow} alt="" />
-                </button>
+                </a>
                 <button className="bg-[#122252] flex items-center justify-center gap-2 h-[48px] w-full rounded-full">
                   Quick Buy Doogle token by Doogle Bot
                 </button>
@@ -111,9 +115,13 @@ function DoogleInu() {
                 <br />
               </p>
               <div className="flex gap-3 flex-col text-white font-semibold mt-5">
-                <button className="bg-[#f06e10]  flex items-center justify-center gap-2 h-[48px] w-full rounded-full">
+                <a
+                  href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x1D7db9F46cbcB1DA570a89bd36558c6DDFBa569D&chain=base"
+                  target="_blank"
+                  className="bg-[#f06e10] flex items-center justify-center gap-2 h-[48px] w-full rounded-full"
+                >
                   Buy Doogle token on Uniswap <img src={forward_arrow} alt="" />
-                </button>
+                </a>
                 <button className="bg-[#122252] flex items-center justify-center gap-2 h-[48px] w-full rounded-full">
                   Quick Buy Doogle token by Doogle Bot
                 </button>
@@ -141,9 +149,13 @@ function DoogleInu() {
                 decisions.
               </p>
               <div className="flex gap-3 flex-col text-white font-semibold mt-5 ">
-                <button className="bg-[#f06e10]  flex items-center justify-center gap-2 h-[48px] w-full rounded-full">
+                <a
+                  href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x1D7db9F46cbcB1DA570a89bd36558c6DDFBa569D&chain=base"
+                  target="_blank"
+                  className="bg-[#f06e10] flex items-center justify-center gap-2 h-[48px] w-full rounded-full"
+                >
                   Buy Doogle token on Uniswap <img src={forward_arrow} alt="" />
-                </button>
+                </a>
                 <button className="bg-[#122252] flex items-center justify-center gap-2 h-[48px] w-full rounded-full">
                   Quick Buy Doogle token by Doogle Bot
                 </button>
@@ -171,19 +183,24 @@ function DoogleInu() {
           </p>
           <div className="w-full relative hidden items-center justify-center lg:flex pt-10">
             <img src={metaverse_dogs} alt="" />
-            <div className="z-50 opacity-10 hidden lg:block size-[600px] top-1/4 left-1/2 -translate-x-1/2  blur-md absolute radial-gradient-pink"></div>
+            <div className="z-10 opacity-10 hidden lg:block size-[600px] top-1/4 left-1/2 -translate-x-1/2  blur-md absolute radial-gradient-pink"></div>
           </div>
           <div className="w-full flex items-center pt-16 justify-center lg:hidden">
             <img src={metaverse_dogs_mobile} alt="" />
           </div>
-          <button className="main-button">
+          <button
+            onClick={() => {
+              window.open("https://t.me/doogleinu", "_blank");
+            }}
+            className="main-button z-20"
+          >
             Go to Metaverse <img src={forward_arrow} alt="" />
           </button>
           <div className="flex flex-col mt-5 gap-3">
             <video className="h-[400px]" loop autoPlay muted>
               <source src={video} type="video/mp4" />
             </video>
-            <p className="text-white">
+            <p style={{ fontStyle: "italic" }} className="text-white italic">
               "DOOGLE CHADS Female Dog Art. She created this as a nanny for her
               children. The Doogle family has a group of talented and creative
               women."
@@ -225,7 +242,15 @@ function DoogleInu() {
               </p>
             </div>
           </div>
-          <button className="main-button">
+          <button
+            onClick={() => {
+              window.open(
+                "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x1D7db9F46cbcB1DA570a89bd36558c6DDFBa569D&chain=base",
+                "_blank"
+              );
+            }}
+            className="main-button"
+          >
             Buy $DOOGLE <img src={forward_arrow} alt="" />
           </button>
         </div>
@@ -243,12 +268,30 @@ function DoogleInu() {
               illuminating paths to knowledge, connections, and opportunities
               that were previously hidden in the shadows.
             </p>
-            <button className="main-button self-start">
-              Buy $DOOGLE <img src={forward_arrow} alt="" />
-            </button>
+            <div className="hidden lg:block">
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x1D7db9F46cbcB1DA570a89bd36558c6DDFBa569D&chain=base",
+                    "_blank"
+                  );
+                }}
+                className=" main-button lg:flex self-start"
+              >
+                Buy $DOOGLE <img src={forward_arrow} alt="" />
+              </button>
+            </div>
           </div>
           <img src={doogle_search_engine} alt="" />
-          <button className="px-3 mt-4 flex lg:hidden self-center font-semibold gap-2 text-[24px] lg:self-start text-white rounded-full py-4 bg-[#f06e10]">
+          <button
+            onClick={() => {
+              window.open(
+                "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x1D7db9F46cbcB1DA570a89bd36558c6DDFBa569D&chain=base",
+                "_blank"
+              );
+            }}
+            className="px-3 mt-4 flex lg:hidden self-center font-semibold gap-2 text-[24px] lg:self-start text-white rounded-full py-4 bg-[#f06e10]"
+          >
             Buy $DOOGLE <img src={forward_arrow} alt="" />
           </button>
         </div>
@@ -256,7 +299,15 @@ function DoogleInu() {
         <div className="flex flex-col-reverse items-center lg:flex-row rounded-lg py-10 px-6 gap-10 bg-[#1a1f2e] mt-20 ">
           <div className="flex flex-col gap-7">
             <img src={doogle_wallet} alt="" />
-            <button className="px-3 flex lg:hidden font-semibold gap-2 text-[24px] self-center lg:self-start text-white rounded-full py-4 bg-[#f06e10]">
+            <button
+              onClick={() => {
+                window.open(
+                  "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x1D7db9F46cbcB1DA570a89bd36558c6DDFBa569D&chain=base",
+                  "_blank"
+                );
+              }}
+              className="px-3 flex lg:hidden font-semibold gap-2 text-[24px] self-center lg:self-start text-white rounded-full py-4 bg-[#f06e10]"
+            >
               Buy $DOOGLE <img src={forward_arrow} alt="" />
             </button>
           </div>
@@ -273,7 +324,15 @@ function DoogleInu() {
               universe of digital wealth. So, buckle up Dooglers! because with
               Doogle Wallet, you're not just storing value.
             </p>
-            <button className="main-button self-start">
+            <button
+              onClick={() => {
+                window.open(
+                  "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x1D7db9F46cbcB1DA570a89bd36558c6DDFBa569D&chain=base",
+                  "_blank"
+                );
+              }}
+              className="main-button self-start"
+            >
               Buy $DOOGLE <img src={forward_arrow} alt="" />
             </button>
           </div>
