@@ -14,7 +14,7 @@ function NavigationBar() {
 
   return (
     <nav className="relative p-4 w-full font-bold text-[14px] bg-gray-200 bg-opacity-5">
-      <div className=" flex gap-12 items-center justify-between md:justify-between">
+      <div className=" flex px-4 gap-12 items-center justify-between md:justify-between">
         <div className="logo flex items-center gap-2">
           <div className="size-12 rounded-full bg-[#A0968A] flex justify-center">
             <img className="h-[40px]" src={nav_logo} alt="" />
