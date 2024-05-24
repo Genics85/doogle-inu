@@ -135,7 +135,7 @@ function NavigationBar() {
             </div>
           </a>
           <a
-            href="https://twitter.com/doogleinu"
+            href="https://t.me/doogleinu"
             target="_blank"
             className="size-8 p-1 rounded-full bg-[#f06e10]"
           >

@@ -30,9 +30,9 @@ function HomeSection() {
             </p>
             <p className="text-[16px] lg:text-[20px] leading-[17.6px] md:leading-[30px] w-full md:w-4/5 text-center ">
               <span className="text-[#cafc01] text-[24px] font-semibold">
-                $Doogle
+                $DOOGLE
               </span>{" "}
-              is dog meme coin. As Dooglers, you get to experience a world where
+              is a dog meme coin. As Dooglers, you get to experience a world where
               humans and dogs become completely one. Transform into one with
               your dog
             </p>
