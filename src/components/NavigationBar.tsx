@@ -16,8 +16,8 @@ function NavigationBar() {
     <nav className="relative p-4 w-full font-bold text-[14px] bg-gray-200 bg-opacity-5">
       <div className=" flex px-4 items-center justify-between 2xl:justify-center  2xl:gap-32">
         <div className="logo flex items-center gap-2">
-          <div className="w-[50px] h-[60px] rounded-full bg-[#A0968A] flex justify-center">
-            <img className="w-[50px] h-[60px]" src={nav_logo} alt="" />
+          <div className="size-[60px] rounded-full bg-[#A0968A] flex justify-center">
+            <img className="h-[53px] " src={nav_logo} alt="" />
           </div>
           <p className="text-[24px] text-nowrap 2xl:text-[28px]">DOOGLE INU</p>
         </div>

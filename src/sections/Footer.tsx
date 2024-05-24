@@ -8,10 +8,12 @@ function Footer() {
       <div className="container p-4 mx-auto  text-[14px] lg:text-[16px] flex flex-col-reverse lg:flex-row w-full lg:items-center 2xl:px-0 justify-between">
         <div className="flex flex-col gap-2 ">
           <div className="logo flex items-center gap-2">
-            <div className="size-10 rounded-full bg-[#A0968A] flex justify-center">
-              <img className="h-[35px]" src={nav_logo} alt="" />
+            <div className="size-[60px] rounded-full bg-[#A0968A] flex justify-center">
+              <img className="h-[53px] " src={nav_logo} alt="" />
             </div>
-            <p className=" lg:text-[16px] font-bold">DOOGLE INU</p>
+            <p className="text-[24px] font-semibold text-nowrap 2xl:text-[28px]">
+              DOOGLE INU
+            </p>
           </div>
           <p className="">Get connected us on all social media platforms</p>
           <div className="flex gap-2">
