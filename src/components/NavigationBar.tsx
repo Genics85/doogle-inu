@@ -16,8 +16,8 @@ function NavigationBar() {
     <nav className="relative p-4 w-full font-bold text-[14px] bg-gray-200 bg-opacity-5">
       <div className="container mx-auto flex gap-12 items-center justify-between md:justify-center">
         <div className="logo flex items-center gap-2">
-          <div className="size-10 rounded-full bg-[#A0968A] flex justify-center">
-            <img className="h-[35px]" src={nav_logo} alt="" />
+          <div className="size-12 rounded-full bg-[#A0968A] flex justify-center">
+            <img className="h-[40px]" src={nav_logo} alt="" />
           </div>
           <p className="lg:text-[22px]">DOOGLE INU</p>
         </div>
@@ -89,6 +89,12 @@ function NavigationBar() {
           <NavLink
             className={({ isActive }) => (isActive ? "gradient-text" : "")}
             to="buy-doogle"
+            onClick={() => {
+              window.open(
+                "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x1D7db9F46cbcB1DA570a89bd36558c6DDFBa569D&chain=base",
+                "_blank"
+              );
+            }}
           >
             Buy Doogle
           </NavLink>
@@ -108,6 +114,9 @@ function NavigationBar() {
           <NavLink
             className={({ isActive }) => (isActive ? "gradient-text" : "")}
             to="blogs"
+            onClick={() => {
+              window.open("https://medium.com/@doogleinu", "_blank");
+            }}
           >
             Blogs
           </NavLink>
@@ -126,7 +135,7 @@ function NavigationBar() {
             </div>
           </a>
           <a
-            href="https://t.me/DoogleBaseBot"
+            href="https://twitter.com/doogleinu"
             target="_blank"
             className="size-8 p-1 rounded-full bg-[#f06e10]"
           >

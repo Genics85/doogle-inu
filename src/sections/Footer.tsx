@@ -4,9 +4,9 @@ import telegram_icon from "../assets/telegram_icon.svg";
 
 function Footer() {
   return (
-    <footer className="text-white pt-24 ">
-      <div className="container p-4 mx-auto text-[14px] lg:text-[16px] flex flex-col-reverse lg:flex-row w-full lg:items-center justify-center gap-10">
-        <div className="flex flex-col gap-2">
+    <footer className="text-white pt-24  ">
+      <div className="container p-4 mx-auto  text-[14px] lg:text-[16px] flex flex-col-reverse lg:flex-row w-full lg:items-center justify-between px-36">
+        <div className="flex flex-col gap-2 ">
           <div className="logo flex items-center gap-2">
             <div className="size-10 rounded-full bg-[#A0968A] flex justify-center">
               <img className="h-[35px]" src={nav_logo} alt="" />
@@ -15,12 +15,20 @@ function Footer() {
           </div>
           <p className="">Get connected us on all social media platforms</p>
           <div className="flex gap-2">
-            <div className="bg-black size-8 rounded-full flex items-center justify-center ">
+            <a
+              href="https://t.me/DoogleBaseBot"
+              target="_blank"
+              className="bg-black size-8 rounded-full flex items-center justify-center "
+            >
               <img src={telegram_icon} alt="" />
-            </div>
-            <div className="bg-black size-8 rounded-full flex items-center justify-center ">
+            </a>
+            <a
+              href="https://twitter.com/doogleinu"
+              target="_blank"
+              className="bg-black size-8 rounded-full flex items-center justify-center "
+            >
               <img src={x_icon} alt="" />
-            </div>
+            </a>
           </div>
         </div>
         <div className="flex gap-12 text-[#d1cdcd] w-full lg:w-fit font-semibold">
