@@ -16,7 +16,7 @@ function Footer() {
           <p className="">Get connected us on all social media platforms</p>
           <div className="flex gap-2">
             <a
-              href="https://t.me/DoogleBaseBot"
+              href="https://t.me/doogleinu"
               target="_blank"
               className="bg-black size-8 rounded-full flex items-center justify-center "
             >
@@ -41,7 +41,9 @@ function Footer() {
               Doogle Swap
             </a>
             <p>Doogle</p>
-            <p>Contact</p>
+            <a href="https://t.me/doogleinu" target="_blank">
+              Contact
+            </a>
             <a href="https://medium.com/@doogleinu" target="_blank">
               Blog
             </a>

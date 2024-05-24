@@ -9,11 +9,11 @@ function HeadBanner() {
           <img src={banner_star} alt="" />
         </div>
         <div className="flex gap-2 scrolling-divs">
-          <p className=" text-nowrap">I am meme doogler</p>
+          <p className=" text-nowrap">I am a meme doogler</p>
           <img src={banner_star} alt="" />
         </div>
         <div className="flex gap-2 scrolling-divs ">
-          <p className=" text-nowrap">I am doogleinu.</p>
+          <p className=" text-nowrap">I am a doogleinu.</p>
           <img src={banner_star} alt="" />
         </div>
         <div className="flex gap-2 scrolling-divs">
