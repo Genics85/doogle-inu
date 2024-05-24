@@ -5,15 +5,15 @@ function HeadBanner() {
     <div className="hidden h-[44px] lg:flex items-center bg-[#1a1f2e] w-full">
       <div className=" container text-[20px] mx-auto px-4 flex justify-between w-full ">
         <div className="flex gap-2 scrolling-divs ">
-          <p className=" text-nowrap">I am DOOGLER</p>
+          <p className=" text-nowrap">I am a doogle</p>
           <img src={banner_star} alt="" />
         </div>
         <div className="flex gap-2 scrolling-divs">
-          <p className=" text-nowrap">I am MEME doogler</p>
+          <p className=" text-nowrap">I am meme doogler</p>
           <img src={banner_star} alt="" />
         </div>
         <div className="flex gap-2 scrolling-divs ">
-          <p className=" text-nowrap">I am Doogle Inu.</p>
+          <p className=" text-nowrap">I am doogleinu.</p>
           <img src={banner_star} alt="" />
         </div>
         <div className="flex gap-2 scrolling-divs">

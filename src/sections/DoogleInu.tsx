@@ -84,10 +84,7 @@ function DoogleInu() {
                 </a>
                 <button
                   onClick={() => {
-                    window.open(
-                      "https://dexscreener.com/base/0x3c1588fb92f3e4bdd0800a518fa18496792a8030",
-                      "_blank"
-                    );
+                    window.open("https://t.me/DoogleBaseBot", "_blank");
                   }}
                   className="bg-[#122252] flex items-center justify-center gap-2 h-[48px] w-full rounded-full"
                 >
@@ -138,7 +135,12 @@ function DoogleInu() {
                 >
                   Buy Doogle token on Uniswap <img src={forward_arrow} alt="" />
                 </a>
-                <button className="bg-[#122252] flex items-center justify-center gap-2 h-[48px] w-full rounded-full">
+                <button
+                  onClick={() => {
+                    window.open("https://t.me/DoogleBaseBot", "_blank");
+                  }}
+                  className="bg-[#122252] flex items-center justify-center gap-2 h-[48px] w-full rounded-full"
+                >
                   Quick Buy Doogle token by Doogle Bot
                 </button>
                 <button className="gradient-button h-[48px] w-full rounded-full">
@@ -172,7 +174,12 @@ function DoogleInu() {
                 >
                   Buy Doogle token on Uniswap <img src={forward_arrow} alt="" />
                 </a>
-                <button className="bg-[#122252] flex items-center justify-center gap-2 h-[48px] w-full rounded-full">
+                <button
+                  onClick={() => {
+                    window.open("https://t.me/DoogleBaseBot", "_blank");
+                  }}
+                  className="bg-[#122252] flex items-center justify-center gap-2 h-[48px] w-full rounded-full"
+                >
                   Quick Buy Doogle token by Doogle Bot
                 </button>
                 <button className="gradient-button h-[48px] w-full rounded-full">
