@@ -78,7 +78,7 @@ function DoogleInu() {
                 <a
                   href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x1D7db9F46cbcB1DA570a89bd36558c6DDFBa569D&chain=base"
                   target="_blank"
-                  className="bg-[#f06e10] flex items-center justify-center gap-2 h-[48px] w-full rounded-full"
+                  className="bg-[#f06e10] flex items-center justify-center gap-2 h-[48px] w-full rounded-full text-[14px] lg:text-[16px]"
                 >
                   Buy Doogle token on Uniswap <img src={forward_arrow} alt="" />
                 </a>
@@ -86,7 +86,7 @@ function DoogleInu() {
                   onClick={() => {
                     window.open("https://t.me/DoogleBaseBot", "_blank");
                   }}
-                  className="bg-[#122252] flex items-center justify-center gap-2 h-[48px] w-full rounded-full"
+                  className="bg-[#122252] flex items-center justify-center gap-2 h-[48px] w-full rounded-full text-[14px] lg:text-[16px]"
                 >
                   Quick Buy Doogle token by Doogle Bot
                 </button>
@@ -97,7 +97,7 @@ function DoogleInu() {
                       "_blank"
                     );
                   }}
-                  className="gradient-button h-[48px] w-full rounded-full"
+                  className="gradient-button h-[48px] w-full rounded-full text-[14px] lg:text-[16px]"
                 >
                   View Doogle token on Dexscreener
                 </button>
@@ -131,7 +131,7 @@ function DoogleInu() {
                 <a
                   href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x1D7db9F46cbcB1DA570a89bd36558c6DDFBa569D&chain=base"
                   target="_blank"
-                  className="bg-[#f06e10] flex items-center justify-center gap-2 h-[48px] w-full rounded-full"
+                  className="bg-[#f06e10] flex items-center justify-center gap-2 h-[48px] w-full rounded-full text-[14px] lg:text-[16px]"
                 >
                   Buy Doogle token on Uniswap <img src={forward_arrow} alt="" />
                 </a>
@@ -139,11 +139,11 @@ function DoogleInu() {
                   onClick={() => {
                     window.open("https://t.me/DoogleBaseBot", "_blank");
                   }}
-                  className="bg-[#122252] flex items-center justify-center gap-2 h-[48px] w-full rounded-full"
+                  className="bg-[#122252] flex items-center justify-center gap-2 h-[48px] w-full rounded-full text-[14px] lg:text-[16px]"
                 >
                   Quick Buy Doogle token by Doogle Bot
                 </button>
-                <button className="gradient-button h-[48px] w-full rounded-full">
+                <button className="gradient-button h-[48px] w-full rounded-full text-[14px] lg:text-[16px]">
                   View Airdrop on Coingecko
                 </button>
               </div>
@@ -170,7 +170,7 @@ function DoogleInu() {
                 <a
                   href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x1D7db9F46cbcB1DA570a89bd36558c6DDFBa569D&chain=base"
                   target="_blank"
-                  className="bg-[#f06e10] flex items-center justify-center gap-2 h-[48px] w-full rounded-full"
+                  className="bg-[#f06e10] flex items-center justify-center gap-2 h-[48px] w-full rounded-full text-[14px] lg:text-[16px]"
                 >
                   Buy Doogle token on Uniswap <img src={forward_arrow} alt="" />
                 </a>
@@ -178,11 +178,11 @@ function DoogleInu() {
                   onClick={() => {
                     window.open("https://t.me/DoogleBaseBot", "_blank");
                   }}
-                  className="bg-[#122252] flex items-center justify-center gap-2 h-[48px] w-full rounded-full"
+                  className="bg-[#122252] flex items-center justify-center gap-2 h-[48px] w-full rounded-full text-[14px] lg:text-[16px]"
                 >
                   Quick Buy Doogle token by Doogle Bot
                 </button>
-                <button className="gradient-button h-[48px] w-full rounded-full">
+                <button className="gradient-button h-[48px] w-full rounded-full text-[14px] lg:text-[16px]">
                   Coming soon!!!
                 </button>
               </div>
