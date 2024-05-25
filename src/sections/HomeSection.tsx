@@ -21,7 +21,7 @@ function HomeSection() {
         <NavigationBar />
         <div className="flex flex-col items-center justify-center flex-grow">
           <div className="container mt-5 mx-auto flex items-center justify-center  ">
-            <img className=" size-[250px] lg:size-[350px]" src={hero_img} alt="" />
+            <img className=" size-[230px] lg:size-[350px]" src={hero_img} alt="" />
           </div>
           <div className="container p-3 mx-auto flex flex-col items-center gap-5 justify-center">
             <p className=" text-[30px] font-bold lg:text-[50px] text-center lg:leading-[50px]">
