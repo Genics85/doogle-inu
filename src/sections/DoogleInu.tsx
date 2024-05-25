@@ -32,7 +32,7 @@ const FAQs: FAQ[] = [
       "To get started, you have to first buy the Doogle coin as this would let you access different services within the Doogle metaverse. After you have purchased your coins, get into the Doogle Metaverse straight away!",
   },
   {
-    question: "On what Chain is Doogle on?",
+    question: "What chain is doogle on?",
     answer:
       "For now, Doogle operates on the BASE ETH ( BASE Mainetwork). If there are plans for multichain progress an announcement will be made regarding that.",
   },
@@ -283,7 +283,7 @@ function DoogleInu() {
             <p className="text-[26px] lg:text-[36px] text-center lg:text-start text-white font-semibold">
               Doogle <span className="gradient-text">Search engine</span>
             </p>
-            <p className="leading-[30px] font-light text-justify text-white">
+            <p className="leading-[30px] font-light text-white">
               In the vast expanse of the Doogle Metaverse, information is king,
               and the Doogle Search Engine reigns supreme. This isn't just a
               tool for finding answers; it's a compass guiding you Dooglers
@@ -339,7 +339,7 @@ function DoogleInu() {
             <p className="text-[26px] lg:text-[36px] text-center lg:text-start text-white font-semibold">
               Doogle <span className="gradient-text">Wallet</span>
             </p>
-            <p className="leading-[30px] font-light text-justify text-white">
+            <p className="leading-[30px] font-light text-white">
               Imagine this: You're standing at the threshold of a canine galaxy
               filled with digital gold, waiting for the moment to dive in.
               That's exactly what awaits you with the Doogle Wallet – a cosmic
