@@ -24,7 +24,7 @@ function HomeSection() {
             <img className=" size-[230px] lg:size-[350px]" src={hero_img} alt="" />
           </div>
           <div className="container p-3 mx-auto flex flex-col items-center gap-5 justify-center">
-            <p className=" text-[30px] font-bold lg:text-[50px] text-center lg:leading-[50px]">
+            <p className=" text-[30px] font-bold lg:text-[50px] text-center leading-[32px] lg:leading-[50px]">
               Welcome to the <span className="text-[#cafc01]">Virtual</span>{" "}
               <br /> world of <span className="text-[#f06e10]">Doogle</span>
             </p>
