@@ -53,7 +53,7 @@ function DoogleInu() {
     <div className=" bg-[#030600] pt-8 ">
       <div className="container p-4 mx-auto flex flex-col">
         {/* Doogle Inu Tokens */}
-        <div className="doogle-tokens flex flex-col gap-6">
+        <div className="doogle-tokens z-10 flex flex-col gap-6">
           <h3 className="main-header">DoogleInu Tokens</h3>
           <div className="flex gap-7 lg:gap-5 flex-col lg:flex-row">
             <div className="bg-[#1a1f2e] w-full rounded-lg flex flex-col gap-4 p-5">
@@ -194,7 +194,7 @@ function DoogleInu() {
           id="dooglemetaverse"
           className="relative doogle-metaverse gap-7 flex flex-col pt-8 items-center justify-center"
         >
-          <div className=" absolute z-50 opacity-10 size-[700px] -top-36 left-1/2 -translate-x-1/2  blur-md radial-gradient-pink"></div>
+          <div className=" absolute opacity-10 size-[700px] -top-36 left-1/2 -translate-x-1/2  blur-md radial-gradient-pink"></div>
           <h3 className="main-header">
             Doogle <span className="gradient-text">Metaverse</span>
           </h3>
