@@ -33,6 +33,10 @@ function Footer() {
             </a>
           </div>
         </div>
+        <div className="space-y-2">
+          <p className="text-white font-semibold text-center">Donation address for Doogle team:</p>
+          <p >0x41c80fAff3288F8f8fcbC4283aF917f561e27BbA</p>
+        </div>
         <div className="flex gap-12 text-[#d1cdcd] w-full lg:w-fit font-semibold">
           <div className="flex flex-col">
             <p className="mb-4 text-white font-bold">Products</p>

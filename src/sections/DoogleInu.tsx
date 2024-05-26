@@ -19,6 +19,7 @@ import lotto from "../assets/lotto-partner.jpg";
 import ether from "../assets/logo-ether-partner.svg";
 import dexscreener from "../assets/dexscreener-partner.jpg";
 import coingecko from "../assets/coingeck-partner.jpg";
+import uniswap from "../assets/uniswap-partner.jpg";
 
 type FAQ = {
   question: string;
@@ -369,7 +370,7 @@ function DoogleInu() {
         <div className="container mx-auto pt-20 flex flex-col gap-7">
           <h3 className="main-header">Partners</h3>
 
-          <div className=" grid grid-cols-1 lg:grid-cols-4 gap-4">
+          <div className=" grid grid-cols-1 lg:grid-cols-5 gap-4">
             <div className="bg-white flex items-center justify-center p-1">
               <img src={lotto} alt="" />
             </div>
@@ -381,6 +382,9 @@ function DoogleInu() {
             </div>
             <div className="bg-white flex items-center justify-center p-1">
               <img src={coingecko} alt="" />
+            </div>
+            <div className="bg-white flex items-center justify-center p-1">
+              <img src={uniswap} alt="" />
             </div>
           </div>
         </div>
