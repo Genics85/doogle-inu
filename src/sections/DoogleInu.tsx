@@ -15,6 +15,11 @@ import right_chevron from "../assets/right_chevron.svg";
 import down_chevron from "../assets/chevron_down.svg";
 import { useState } from "react";
 
+import lotto from "../assets/lotto-partner.jpg";
+import ether from "../assets/logo-ether-partner.svg";
+import dexscreener from "../assets/dexscreener-partner.jpg";
+import coingecko from "../assets/coingeck-partner.jpg";
+
 type FAQ = {
   question: string;
   answer: string;
@@ -358,6 +363,25 @@ function DoogleInu() {
             >
               Buy $DOOGLE <img src={forward_arrow} alt="" />
             </button>
+          </div>
+        </div>
+        {/* Partners */}
+        <div className="container mx-auto pt-20 flex flex-col gap-7">
+          <h3 className="main-header">Partners</h3>
+
+          <div className=" grid grid-cols-1 lg:grid-cols-4 gap-4">
+            <div className="bg-white flex items-center justify-center p-1">
+              <img src={lotto} alt="" />
+            </div>
+            <div className="bg-white flex items-center justify-center p-1">
+              <img src={dexscreener} alt="" />
+            </div>
+            <div className="bg-white flex items-center justify-center p-1">
+              <img src={ether} alt="" />
+            </div>
+            <div className="bg-white flex items-center justify-center p-1">
+              <img src={coingecko} alt="" />
+            </div>
           </div>
         </div>
         {/* Frequently Asked Questions */}
