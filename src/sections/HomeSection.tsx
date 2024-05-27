@@ -8,7 +8,6 @@ function HomeSection() {
     backgroundImage: `url('${home_bg}')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
-    height: "100vh",
     minHeight: "100vh",
     width: "100%",
     zIndex: "-1",
