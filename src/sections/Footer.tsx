@@ -34,8 +34,10 @@ function Footer() {
           </div>
         </div>
         <div className="space-y-2">
-          <p className="text-white font-semibold text-center">Donation address for Doogle team:</p>
-          <p >0x41c80fAff3288F8f8fcbC4283aF917f561e27BbA</p>
+          <p className="text-white font-semibold text-center">
+            Donation address for Doogle team:
+          </p>
+          <p>0x41c80fAff3288F8f8fcbC4283aF917f561e27BbA</p>
         </div>
         <div className="flex gap-12 text-[#d1cdcd] w-full lg:w-fit font-semibold">
           <div className="flex flex-col">
@@ -47,7 +49,7 @@ function Footer() {
               Doogle Swap
             </a>
             <p>Doogle</p>
-            <a href="https://t.me/doogleinu" target="_blank">
+            <a href="mailto:doogleinu@gmail.com" target="_blank">
               Contact
             </a>
             <a href="https://medium.com/@doogleinu" target="_blank">
