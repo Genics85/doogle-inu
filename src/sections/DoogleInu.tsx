@@ -8,6 +8,7 @@ import forward_arrow from "../assets/forward_arrow.svg";
 import dog_human_game from "../assets/dog_human_game.png";
 import doogle_hospital from "../assets/doogle_hospital.png";
 import doogle_education from "../assets/doogle_education.png";
+import doogle_tv from "../assets/doogleTv3.png"
 import doogle_search_engine from "../assets/doogle_search_engine.png";
 import doogle_wallet from "../assets/doogle_wallet.png";
 import video from "../assets/doogle_vid.mp4";
@@ -251,7 +252,7 @@ function DoogleInu() {
             with the warmth of connection for all Dooglers. Here we turn every
             interaction into a memorable adventure for all Dooglers!
           </p>
-          <div className="flex flex-col lg:flex-row gap-6 w-full items-center justify-center">
+          <div className="grid grid-cols-1 lg:grid-cols-4  gap-6 w-full ">
             <div className="flex items-center flex-col gap-3">
               <img src={dog_human_game} alt="" />
               <p className="text-[26px] text-[#cafc01] ibm-plex-mono">
@@ -268,6 +269,12 @@ function DoogleInu() {
               <img src={doogle_education} alt="" />
               <p className="text-[26px] text-[#f06e10] ibm-plex-mono">
                 Doogle Education
+              </p>
+            </div>
+            <div className="flex items-center flex-col gap-3">
+              <img src={doogle_tv} alt="" />
+              <p className="text-[26px] text-[#3aff3a] ibm-plex-mono">
+                Doogle TV
               </p>
             </div>
           </div>
