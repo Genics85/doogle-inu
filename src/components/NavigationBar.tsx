@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import nav_logo from "../assets/doogle_nav_logo.png";
 import x_icon from "../assets/x_icon.svg";
 import telegram_icon from "../assets/telegram_icon.svg";
@@ -15,13 +15,14 @@ function NavigationBar() {
   return (
     <nav className="relative p-4 w-full font-bold text-[14px] bg-gray-200 bg-opacity-5">
       <div className=" flex px-4 items-center justify-between 2xl:justify-center  2xl:gap-32">
-        <div className="logo flex items-center gap-2">
+        <Link to="/" className="logo flex items-center gap-2">
           <div className="size-[60px] rounded-full bg-[#A0968A] flex justify-center">
             <img className="h-[53px] " src={nav_logo} alt="" />
           </div>
           <p className="text-[24px] text-nowrap 2xl:text-[28px]">DOOGLE INU</p>
-        </div>
-        <ul className=" gap-4 hidden lg:flex ">
+        </Link>
+        {/* Navigation desktop */}
+        <ul className=" gap-3 hidden lg:flex ">
           <NavLink
             className={({ isActive }) => (isActive ? "gradient-text" : "")}
             to="home"
@@ -34,6 +35,15 @@ function NavigationBar() {
             }}
           >
             Home
+          </NavLink>
+          <NavLink
+            className={({ isActive }) => (isActive ? "gradient-text" : "")}
+            to="doogle-staking"
+            onClick={() => {
+              window.open("https://staking.doogletoken.com", "_blank");
+            }}
+          >
+            Doogle Staking
           </NavLink>
           <NavLink
             className={({ isActive }) => (isActive ? "gradient-text" : "")}
@@ -52,7 +62,7 @@ function NavigationBar() {
               });
             }}
           >
-            Doogle Ecosystem
+            Ecosystem
           </NavLink>
           <NavLink
             className={({ isActive }) => (isActive ? "gradient-text" : "")}
@@ -170,6 +180,15 @@ function NavigationBar() {
             }}
           >
             Home
+          </NavLink>
+          <NavLink
+            className={({ isActive }) => (isActive ? "gradient-text" : "")}
+            to="doogle-staking"
+            onClick={() => {
+              window.open("https://staking.doogletoken.com", "_blank");
+            }}
+          >
+            Doogle Staking
           </NavLink>
           <NavLink
             className={({ isActive }) => (isActive ? "gradient-text" : "")}
